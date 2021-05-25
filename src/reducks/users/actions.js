@@ -18,6 +18,7 @@ export const signOutAction = () => {
         payload: {
             isSignedIn: false,
             uid: "",
+            role: "",
             username: ""
         }
     }
